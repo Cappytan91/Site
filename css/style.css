@@ -1,0 +1,119 @@
+canvas {
+    cursor: none;
+}
+
+.a {
+    border: 2px solid black;
+    position: absolute;
+    right: 50%;
+    top: 20px;
+    transform: translate(50%, 0%);
+}
+
+.v {
+    display: none;
+}
+
+.c {
+    display: none;
+    cursor: default;
+    background-color: black;
+    border: 2px solid black;
+    position: absolute;
+    right: 50%;
+    top: 20px;
+    transform: translate(50%, 0%);
+}
+
+.btn {
+    display: none;
+    cursor: default;
+    background-color: black;
+    border: 2px solid white;
+    border-color: white;
+    position: absolute;
+    right: 50%;
+    top: 120px;
+    transform: translate(50%, 50%);
+    color: white;
+}
+
+.score {
+    cursor: none;
+    display: none;
+    position: absolute;
+    right: 50%;
+    top: 20px;
+    transform: translate(50%, 0%);
+}
+
+.pause {
+    position: absolute;
+    right: 50%;
+    top: 20px;
+    transform: translate(50%, 0%);
+    cursor: default;
+}
+
+.unpause {
+    display: none;
+    position: absolute;
+    right: 50%;
+    top: 20px;
+    transform: translate(50%, 0%);
+    cursor: default;
+}
+
+.time {
+    position: absolute;
+    right: 50%;
+    top: 320px;
+    transform: translate(50%, 0%);
+    cursor: default;
+}
+
+.hi-score {
+    position: absolute;
+    right: 50%;
+    top: 410px;
+    transform: translate(50%, 0%);
+    font: 40px MCRegular;
+    text-align: center;
+}
+
+.first {
+    position: absolute;
+    right: 50%;
+    top: 450px;
+    transform: translate(50%, 0%);
+    background-color: gold;
+    height: 40px;
+    width: 400px;
+}
+
+.usernameBox {
+    position: absolute;
+    right: 50%;
+    top: 160px;
+    transform: translate(50%, 0%);
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 7px;
+    outline: none;
+    display: none;
+}
+
+.subBTN {
+    position: absolute;
+    right: 50%;
+    top: 190px;
+    transform: translate(50%, 0%);
+    border: 2px solid black;
+    border-radius: 5px;
+    display: none;
+}
+
+@font-face {
+    font-family: 'MCRegular';
+    src: url(../fnt/MinecraftRegular.otf);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Game is cool</title>
+    
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="../fnt/MinecraftRegular.otf" as="font" type="font/otf" crossorigin>
+
+
+
+</head>
+
+<body onload="pauseBtn(), load()">
+
+    <ol id="scores" class="hi-score"></ol>
+    <!--<button onclick="writeUserData(name)">click me</button>-->
+    <canvas id="powerTimer" class="time" width="400" height="100"></canvas>
+    <canvas id="pause" class="pause" width="600" height="50" onclick="pauseGame()"></canvas>
+    <canvas id="unpause" class="unpause" width="600" height="50" onclick="unpauseGame()"></canvas>
+    <img class="v" src="img/avatar.png" alt="Avatar">
+    <Canvas id="gameScore" class="score" width="400" height="300"></Canvas>
+    <Canvas id="gameCanvas" class="a" width="400" height="300" onclick="askForName()"></Canvas>
+    <Canvas id="gameCanva" class="c" width="133.33333333" height="300"></Canvas>
+    <Canvas id="gameCanvaBtn" class="btn" width="120" height="50" onclick="startNewGame()"></Canvas>
+    <input id="user" maxlength="8" class="usernameBox">
+    <button id="subBTN" class="subBTN" onclick="checkSub()">Submit</button>
+    <input type="file" accept="image/*" capture="camera" id="cameraInput">
+    <br>
+    <button onclick="sendAvatar()">Submit</button>
+    <img>
+
+</body>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script>
+
+<script src="js/notMain.js"></script>
+</html>
